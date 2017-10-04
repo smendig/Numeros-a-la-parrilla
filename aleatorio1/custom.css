@@ -1,0 +1,215 @@
+body{
+
+}
+#grid {
+    width: 400px;
+    height: 400px;   
+margin: auto;     
+}
+.cell {
+background:#B5B5B5;
+   -moz-box-shadow:    inset 0 0 1px #000000;
+   -webkit-box-shadow: inset 0 0 1px #000000;
+   box-shadow:         inset 0 0 1px #000000;
+    float: left;
+    height: 100px;
+    width: 100px;    
+}
+.interior {
+text-align:center;
+line-height: 100px;
+font-size: 40px;
+color:red;
+}
+.interior.verde{
+color:green;
+}
+
+    .onoffswitch {
+    position: relative; width: 137px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+margin: 10px auto;
+    }
+    .onoffswitch-checkbox {
+    display: none;
+    }
+    .onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 32px;
+    }
+    .onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 36px; padding: 0; line-height: 36px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+    content: "Reglas ACB";
+    padding-left: 10px;
+    background-color: #999999; color: #FFFFFF;
+    }
+    .onoffswitch-inner:after {
+    content: "Reglas NBA";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+    }
+    .onoffswitch-switch {
+    display: block; width: 15px; margin: 10.5px;
+    background: #FFFFFF;
+    border: 2px solid #999999; border-radius: 32px;
+    position: absolute; top: 0; bottom: 0; right: 97px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+    }
+
+button {
+    background-color: #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:4px;
+    color: #000;
+    font-family: 'Oswald';
+    font-size: 10px;
+    text-decoration: none;
+    cursor: poiner;
+     border:none;
+}
+button:hover {
+    border: none;
+    background:#666666;  
+}
+.bcambio{
+position:absolute;
+height:17px;
+width:30px;
+}
+.bsituacion{
+margin: auto;
+text-align: center;
+}
+#sitA,#sitB,#todo1s{
+font-size: 20px;
+margin-bottom:10px;
+}
+#container{
+background: url(pattern2.png) repeat;
+overflow:hidden;
+width: 500px;
+height: 580px;
+position:relative;
+margin:auto;
+border-radius: 20px;
+box-shadow:         0px 0px 5px 3px rgba(50, 50, 50, 0.95);
+}
+#bfila1{
+top:140px;
+left:15px;
+}
+#bfila2{
+top:240px;
+left:15px;
+}
+#bfila3{
+top:340px;
+left:15px;
+}
+#bfila4{
+top:440px;
+left:15px;
+}
+#bcolumna1{
+top:500px;
+left:85px;
+}
+#bcolumna2{
+top:500px;
+left:185px;
+}
+#bcolumna3{
+top:500px;
+left:285px;
+}
+#bcolumna4{
+top:500px;
+left:385px;
+}
+#bdiagonalA1{
+top:280px;
+left:15px;
+}
+#bdiagonalA2{
+top:280px;
+left:15px;
+}
+#bdiagonalA3{
+top:180px;
+left:15px;
+}
+#bdiagonalA4{
+top:80px;
+left:15px;
+}
+#bdiagonalA5{
+top:400px;
+left:460px;
+}
+#bdiagonalA6{
+top:300px;
+left:460px;
+}
+#bdiagonalA7{
+top:200px;
+left:460px;
+}
+#bdiagonalB1{
+top:200px;
+left:15px;
+}
+#bdiagonalB2{
+top:300px;
+left:15px;
+}
+#bdiagonalB3{
+top:400px;
+left:15px;
+}
+#bdiagonalB4{
+top:500px;
+left:18px;
+}
+#bdiagonalB5{
+top:500px;
+left:118px;
+}
+#bdiagonalB6{
+top:500px;
+left:218px;
+}
+#bdiagonalB7{
+top:500px;
+left:318px;
+}
+.texto{
+float:left;
+margin:auto;
+}
+a{
+color:#009a95;
+margin-left:200px;
+}
+#muestra{
+float:right;
+width:300px;
+margin:50px;
+}
